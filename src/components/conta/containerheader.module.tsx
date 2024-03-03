@@ -8,6 +8,8 @@ import FeedIcon from '../icons/feed-icon';
 import AdicionarIcon from '../icons/adicionar-icon';
 import SairIcon from '../icons/sair-icon';
 import Link from 'next/link';
+import logout from '@/actions/logout';
+import { useUser } from '@/context/usercontext';
 
 
 
@@ -35,10 +37,10 @@ export const ContaHeader = () => {
       setMobileMenu(false);
     }, [pathname]); 
     
-
-  function handleLogout() {
-    // userLogout();
- 
+    const { setUser } = useUser()
+  async function handleLogout() {
+    await logout()
+    setUser(null)
   }
 
   return (
