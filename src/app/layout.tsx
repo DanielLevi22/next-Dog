@@ -4,7 +4,7 @@ import { Spectral } from 'next/font/google'
 import { Header } from '@/components/header/header';
 import { Footer } from '@/components/footer/footer';
 import { UserContextProvider } from '@/context/usercontext';
-import { getUser } from '@/actions/getuser';
+import getUser  from '@/actions/getuser';
 
 const spectral = Spectral({ subsets:['latin'], weight: ['700'], variable: '--type-second-spectral'})
 
