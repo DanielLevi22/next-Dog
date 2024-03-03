@@ -1,3 +1,17 @@
+.feed {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+  justify-items: center;
+}
+
+@media (max-width: 40rem) {
+  .feed {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .photo:nth-child(2) {
   grid-column: 2 / 4;
   grid-row: span 2;
@@ -10,14 +24,14 @@
   }
 }
 
-.photo {
+.photo a {
   display: grid;
   border-radius: 0.2rem;
   overflow: hidden;
   cursor: pointer;
 }
 
-.photo > div {
+.photo img {
   grid-area: 1/1;
 }
 
@@ -38,7 +52,7 @@
   content: '';
   display: inline-block;
   margin-right: 0.25rem;
-  background: url('../../Assets/visualizacao.svg') no-repeat;
+  background: url('/assets/visualizacao.svg') no-repeat;
 }
 
 .photo:hover .visualizacao {

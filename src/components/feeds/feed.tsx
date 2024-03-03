@@ -1,5 +1,14 @@
-export function Feed() {
+import { Photo } from "@/actions/photos-get";
+import { FeedPhotos } from "./feed-photos";
+
+
+
+export function Feed({ photos} : { photos: Photo[]} ){
   return (
-    <main>Feed</main>
+    <div>
+      <FeedPhotos
+        photos={photos}
+      />
+    </div>
   )
 }
