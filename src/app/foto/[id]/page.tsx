@@ -1,5 +1,5 @@
 import { photoGet } from "@/actions/photo-get"
-import PhotoContent from "@/components/photo/photocontent"
+import {PhotoContent} from "@/components/photo/photocontent"
 import { notFound } from "next/navigation"
 
 type  FotoIdParams = {
