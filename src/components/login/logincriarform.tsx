@@ -1,12 +1,13 @@
 'use client'
 import { useFormState, useFormStatus } from "react-dom";
-import { Button } from "@/components/forms/button";
+
 import { Input } from "../forms/input";
 import { ErrorMessage } from "../helper/errormessage";
 import { useEffect } from "react";
 import Link from "next/link";
 import styles from './loginForm.module.css'
 import cadastro from "@/actions/cadastro";
+import { Button } from "../forms/button";
 
 function FormButton() {
   const  { pending } = useFormStatus()
