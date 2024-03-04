@@ -5,7 +5,7 @@ import styles from './PhotoContent.module.css';
 
 import Link from 'next/link';
 import { useUser } from '@/context/usercontext';
-import { PhotoDelete } from './photodele';
+import { PhotoDelete } from './photodelete';
 import Image from 'next/image';
 import { PhotoData } from '@/actions/photo-get';
 
