@@ -6,8 +6,8 @@ export const metadata: Metadata = {
 
 export default function Estatisticas() {
   return(
-    <main>
+    <section>
       <h1>estatisticas</h1>
-    </main>
+    </section>
   )
 }

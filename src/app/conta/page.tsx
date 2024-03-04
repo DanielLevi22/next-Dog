@@ -10,11 +10,13 @@ export const metadata: Metadata = {
 }
 export default async  function Conta() {
 const { data: user} = await getUser()
-const { data } = await photosGet({ user: user?.username})
+const { data } = await photosGet({ user: user?.username}, {
+  cache: 'no-store'
+})
   return(
-    <main>
+    <section>
       {
-        data?.length ?  <Feed  photos={data}/> : 
+        data?.length ?  <Feed  photos={data} user={user?.username}/> : 
         <div>
           <p style={{color: '#444', fontSize: '1.25rem', marginBottom: '1rem'}}>
            Nenhuma foto encontrada.
@@ -23,6 +25,6 @@ const { data } = await photosGet({ user: user?.username})
         </div> 
       }
      
-    </main>
+    </section>
   )
 }

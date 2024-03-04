@@ -23,15 +23,15 @@ type PhotosGetParams = {
   user?: 0 | string
 }
 
-export async function photosGet({page = 1 , total = 6, user = 0}: PhotosGetParams = {}) {
+export async function photosGet({page = 1 , total = 6, user = 0}: PhotosGetParams = {}, optionsFront?: RequestInit) {
   try {
-    const { url } = PHOTOS_GET({page, total, user})
-    const response = await fetch(url ,{
+    const options = optionsFront || { 
       next: {
-        revalidate: 10,
-        tags: ['photos']
-      }
-    })
+      revalidate: 10,
+      tags: ['photos']
+    }}
+    const { url } = PHOTOS_GET({page, total, user})
+    const response = await fetch(url ,options)
     if(!response.ok) throw new Error('Error ao buscar fotos')
      const data = await response.json() as Photo[] ;
      return {data, ok: true,error: '' }
