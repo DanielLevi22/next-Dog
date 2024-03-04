@@ -1,8 +1,14 @@
+import { photosGet } from "@/actions/photos-get";
+import { Feed } from "@/components/feed/feed";
 
-export default function PerfilUser({params}: {params: {user: string}}) {
+export default async function PerfilUser({params}: {params: {user: string}}) {
+  const { data } = await photosGet()
+
+  if(!data) return null;
   return (
-    <main>
-     {params.user}
-    </main>
+    <section className="container mainSection">
+      <h1 className="title">{params.user}</h1>
+      <Feed photos={data} user={params.user} />
+    </section>
   );
 }
