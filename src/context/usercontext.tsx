@@ -1,6 +1,8 @@
 'use client'
 import { User } from "@/actions/getuser";
-import { Dispatch, ReactNode, SetStateAction, createContext, useContext, useState } from "react";
+import logout from "@/actions/logout";
+import { validateToken } from "@/actions/validatetoken";
+import { Dispatch, ReactNode, SetStateAction, createContext, useContext, useEffect, useState } from "react";
 
 
 type IUserContext = {
@@ -22,6 +24,13 @@ export const useUser = () => {
 export function UserContextProvider({children, user}: { children: ReactNode, user: User | null}) {
   const [userState, setUser] = useState<User | null>(user)
 
+  useEffect(() => {
+    async function validate() {
+      const { ok } = await validateToken()
+      if(!ok) await logout()
+    }
+    if(userState) validate()
+  },[userState])
   return (
     <UserContext.Provider value={{ user: userState, setUser}}>{children}</UserContext.Provider>
   )
