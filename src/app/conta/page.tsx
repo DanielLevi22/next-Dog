@@ -21,7 +21,7 @@ const { data } = await photosGet({ user: user?.username}, {
           <p style={{color: '#444', fontSize: '1.25rem', marginBottom: '1rem'}}>
            Nenhuma foto encontrada.
           </p>
-          <Link className="button" href="conta/postar" style={{display:'inline-block'}}> Postar Foto</Link>
+          <Link className="button" href="conta/postar" style={{display:'inline-block'}}>Postar Foto</Link>
         </div> 
       }
      
