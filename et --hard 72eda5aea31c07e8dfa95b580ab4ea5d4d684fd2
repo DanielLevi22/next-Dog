@@ -1,0 +1,191 @@
+[33mcommit 0fae74080bdfc6ae78884b970ed352de6b87dd8a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Mon Mar 4 15:19:20 2024 -0300
+
+    removendo hooks
+
+[33mcommit 72eda5aea31c07e8dfa95b580ab4ea5d4d684fd2[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Mon Mar 4 15:08:23 2024 -0300
+
+    corrigindo estilizacao
+
+[33mcommit 6d63204446f8a604b52f4e91c11db762b502da99[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Mon Mar 4 15:04:45 2024 -0300
+
+    estilo pagina user
+
+[33mcommit 116ed3d670484f9b6b45c7b2c506937eb4f04aab[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Mon Mar 4 14:29:16 2024 -0300
+
+    cracao de rota paralela  junto com interceptacao url state modal
+
+[33mcommit 987edbf4ebc8e92731bd934442955b7cdcf7bd10[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Mon Mar 4 13:59:36 2024 -0300
+
+    adicionando funcao de verificacao de token
+
+[33mcommit 63882565b0449b5095edb76d9f0478c1a3cf84d2[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Mon Mar 4 12:26:14 2024 -0300
+
+    adicionando validacao do token pelo client no contexto
+
+[33mcommit bd86c868c7c08ea8bc02cc38d8d5f617153659c4[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Mon Mar 4 12:17:53 2024 -0300
+
+    adicionando layzLoad routa dinamica  rederizado no client  next Dynamic
+
+[33mcommit 7b03e9dfc8ee3718bda4e974cfd9fddd87f8a1ff[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Mon Mar 4 11:46:35 2024 -0300
+
+    pagina de not found e gloval error
+
+[33mcommit 12c3b066a614824a9d9fae34c28be1a9c66c0331[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Mon Mar 4 10:39:36 2024 -0300
+
+    adicionando comentarios nas fotos
+
+[33mcommit 89ea191f5a68429edae2b0bc35b1afa79f875b5b[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Mon Mar 4 10:01:45 2024 -0300
+
+    deletando foto
+
+[33mcommit e32b026286c059aab5e25ef19a5c1044d4c6cc02[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Mon Mar 4 09:30:36 2024 -0300
+
+    pagina dinamica de fotos
+
+[33mcommit 1e1ea07e3ba703d1ec44a1aeed29eae1194ec94f[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Mon Mar 4 09:00:44 2024 -0300
+
+    adicionando loading em feed
+
+[33mcommit ba16fa24c87422c4a0e35d9c13ff6ddda8b722ad[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Mon Mar 4 08:38:58 2024 -0300
+
+    adicionando scrol infinito
+
+[33mcommit e1b31245ea3b74e486eeeedde3c7c5fa5fbe756d[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Sun Mar 3 22:36:59 2024 -0300
+
+    feed pessoal
+
+[33mcommit feff67b6542e7b132ccdafd1b1450c99bd5ef560[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Sun Mar 3 22:19:58 2024 -0300
+
+    cracao de postagem
+
+[33mcommit 2e6a11550466fc5d527a6ab9091708aed6fac342[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Sun Mar 3 16:48:45 2024 -0300
+
+    feature logout
+
+[33mcommit a92178f6ed51f32b9b2d0d0f336f843f5b71c300[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Sun Mar 3 16:35:26 2024 -0300
+
+    menu header pagina conta
+
+[33mcommit 4827abbea0c2f947ac37ca9662a13d55430b308f[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Sun Mar 3 15:12:48 2024 -0300
+
+    ensiridando usuario pelo contexto dentro da pagina layout
+
+[33mcommit 71c09024283def31ae9d037819663736c8b4c8eb[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Sun Mar 3 14:41:01 2024 -0300
+
+    middlware verificacao de autenticacao
+
+[33mcommit fcf67eed75640b7df6f86eaa4f167bf5bd0f5888[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Sun Mar 3 14:30:04 2024 -0300
+
+    pegando o cookies pelo token para verificacao de usuario logado
+
+[33mcommit a442e4b15a44d13d30c571a714c01b6bf3793006[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Sun Mar 3 14:17:28 2024 -0300
+
+    create fluxo de resete senha
+
+[33mcommit ebdd58711eff2a9c26896450c0f1c7e56f333b6c[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Sun Mar 3 12:48:11 2024 -0300
+
+    fluxo de recuperacao de senha
+
+[33mcommit a36fa5e7b35eb8affa088a93773eecbf3af7e56e[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Sun Mar 3 12:25:46 2024 -0300
+
+     fluxo de criacao do suario
+
+[33mcommit fbc7e33c68518e3e48fdec7dc7d93a648114a6d0[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Sun Mar 3 11:03:07 2024 -0300
+
+    crianndo fluxo de login
+
+[33mcommit 25e6dc89142a02d2c5018c01f9e259cc5d06ed96[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Sun Mar 3 10:41:18 2024 -0300
+
+    form state
+
+[33mcommit bbbd532bfe45c19cd29b70fc7f5c905165527c63[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Sun Mar 3 10:16:40 2024 -0300
+
+    adicionando form status botao de form pagina login
+
+[33mcommit f01604f60714787bbdd41261675ba9f5719ec56d[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Sun Mar 3 10:03:26 2024 -0300
+
+    formularios da pagina login
+
+[33mcommit 54c36d38b7e8f4f65b793626d3a204de98d941e6[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Sun Mar 3 09:39:59 2024 -0300
+
+     criaao da pagina de login
+
+[33mcommit f695b9af7efcf0a91b67a84442e51a4ba1ce0c88[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Sun Mar 3 09:32:19 2024 -0300
+
+    criacao do feed buscando fotos da api
+
+[33mcommit 9bb4bb481aaef9627d18d8a58065efc1d672895d[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Sat Mar 2 20:12:23 2024 -0300
+
+    criacao do header e do footer
+
+[33mcommit d8b6b5dfe38d0badd3c951015270e749169cc790[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Fri Mar 1 08:38:07 2024 -0300
+
+    first commit
+
+[33mcommit a1c08e4d69ff24c0e0f487e836bd1156b4ff0010[m
+Author: Daniel Levi <daniellevi000@gmail.com>
+Date:   Fri Mar 1 08:16:57 2024 -0300
+
+    Initial commit from Create Next App
