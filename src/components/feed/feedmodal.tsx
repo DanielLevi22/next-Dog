@@ -1,6 +1,6 @@
 'use client'
 import { PhotoData } from "@/actions/photo-get";
-import {PhotoContent} from "../photo/photocontent";
+import { PhotoContent } from "../photo/photocontent";
 import styles from './feedmodal.module.css'
 import { usePathname, useRouter } from "next/navigation";
 import { MouseEvent } from "react";
