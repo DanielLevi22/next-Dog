@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import styles from './PhotoContent.module.css';
+import styles from './photocontent.module.css';
 import { PhotoComments} from './photocomments'
 
 import Link from 'next/link';

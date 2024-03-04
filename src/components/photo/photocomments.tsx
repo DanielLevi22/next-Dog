@@ -2,7 +2,7 @@
 
 
 import { useEffect, useRef, useState } from 'react';
-import styles from './PhotoComments.module.css';
+import styles from './photocomments.module.css';
 import { useUser } from '@/context/usercontext';
 import { PhotoCommentsForm } from './photocommentsform'
 import { Comment } from '@/actions/photo-get';

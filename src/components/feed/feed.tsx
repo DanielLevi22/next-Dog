@@ -1,10 +1,10 @@
 'use client'
 
 import { Photo, photosGet } from "@/actions/photos-get";
-import { FeedPhotos } from "./feed-photos";
+import { FeedPhotos } from "./feedphotos";
 import { useEffect, useRef, useState } from "react";
 import Loading from "@/utils/loading";
-import styles from  './FeedPhotos.module.css'
+import styles from  './feedphotos.module.css'
 
 
 export function Feed({ photos , user} : { photos: Photo[], user?:0 | string} ){
