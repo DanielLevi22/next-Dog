@@ -9,7 +9,7 @@ import { PhotoDelete } from './photodelete';
 import Image from 'next/image';
 import { PhotoData } from '@/actions/photo-get';
 
-const PhotoContent = ({ data, single }: { data: PhotoData, single: boolean}) => {
+export const PhotoContent = ({ data, single }: { data: PhotoData, single: boolean}) => {
   const { user } = useUser()
   const { photo, comments } = data;
 
@@ -42,4 +42,4 @@ const PhotoContent = ({ data, single }: { data: PhotoData, single: boolean}) => 
   );
 };
 
-export default PhotoContent;
+

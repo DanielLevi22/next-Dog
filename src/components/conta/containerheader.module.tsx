@@ -1,6 +1,6 @@
 'use client'
 import styles from './contaheader.module.css'
-import useMedia from '../../hooks/useMedia';
+import { useMedia} from '../../hooks/useMedia';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import EstatisticasIcon from '../icons/estatisticas-icon';
